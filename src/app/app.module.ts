@@ -16,6 +16,9 @@ const appRoutes: Routes = [
     AppComponent
   ],
   imports: [
+    RouterModule.forRoot(
+      appRoutes,
+    ),
     BrowserModule,
     HomeModule
   ],
